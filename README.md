@@ -121,6 +121,7 @@ ROC CURVE
 After comparing the models, the **Gradient Boosting Classifier** demonstrated the strongest overall performance. It achieved high accuracy and a strong ROC-AUC score, indicating a good ability to distinguish between individuals who received the vaccine and those who did not.
 
 The analysis also highlighted that individuals' perceptions of vaccine safety, effectiveness and personal health risk play an important role in vaccination decisions.
+![](Images/TopFactorsInfluencingH1N1Vaccination.png)
 
 ---
 
@@ -159,12 +160,4 @@ These improvements could lead to even more accurate predictions and stronger ins
 
 This project demonstrates how machine learning can be used to predict vaccination behavior and support public health decision-making. By identifying factors that influence vaccination uptake, healthcare organizations can develop more targeted strategies to improve vaccination rates and better respond to future public health crises.
 
-The **feature variables** consist of all the other relevant columns that may influence vaccination behavior. These variables include demographic information, health behaviors, and opinions about vaccines.
-
-Some columns are removed when creating the feature dataset:
-- The column h1n1_vaccine is separated from the dataset to create the target variable (y), since it represents the outcome we want to predict. It is then removed from the feature dataset (X) to prevent the model from using the answer during training.
-
-- seasonal_vaccine is removed to avoid potential data leakage since it is another vaccination outcome.
-- respondent_id is removed because it is only a unique identifier and does not contribute meaningful information for prediction.
-
-After separating the dataset into features (X) and the target variable (y), we print the shapes of both datasets to confirm the number of observations and variables being used in the modeling process.
+The **feature variables** consist of all the other relevant columns that may influence vaccination behavior. These variables include demographic information, health behaviors and opinions about vaccines.
