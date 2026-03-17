@@ -100,7 +100,7 @@ Models were evaluated using the following metrics:
 * ROC-AUC
 * Confusion Matrix
 
-ROC curves were also used to visually compare model performance.
+Confusion matrix and ROC curves were also used to visually compare model performance.
 
 ---
 
