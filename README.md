@@ -1,7 +1,6 @@
 # dsc-machine-learning-project
 # H1N1 Vaccine Analysis
 ## Predicting H1N1 Vaccine Uptake Using Machine Learning
-[]!(Images/VaccineH1N1.jpeg)
 
 ## Project Overview
 
@@ -55,7 +54,9 @@ The target variable is:
 * 1 = Respondent received the H1N1 vaccine
 * 0 = Respondent did not receive the vaccine
 
-Other features include demographic information, health conditions, healthcare access, and perceptions about vaccine safety and effectiveness.
+**Doctor Recommendation vs H1N1 Vaccination visualization**
+![](Images/DoctorRecommendationvaH1N1Vaccination.png)
+Other features include demographic information, health conditions, healthcare access and perceptions about vaccine safety and effectiveness.
 
 ---
 
