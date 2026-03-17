@@ -102,13 +102,25 @@ Models were evaluated using the following metrics:
 
 Confusion matrix and ROC curves were also used to visually compare model performance.
 
+Ridge confusion matrix
+![](Images/Ridgeconfusionmatrix.png)
+
+Lasso Confusion matrix
+![](Images/Lassoconfusionmatrix.png)
+
+Random Forest confusion matrix
+![](Images/Randomforestconfusionmatrix.png)
+
+ROC CURVE
+![](Images/ROCCurve.png)
+
 ---
 
 ## Results
 
 After comparing the models, the **Gradient Boosting Classifier** demonstrated the strongest overall performance. It achieved high accuracy and a strong ROC-AUC score, indicating a good ability to distinguish between individuals who received the vaccine and those who did not.
 
-The analysis also highlighted that individuals' perceptions of vaccine safety, effectiveness, and personal health risk play an important role in vaccination decisions.
+The analysis also highlighted that individuals' perceptions of vaccine safety, effectiveness and personal health risk play an important role in vaccination decisions.
 
 ---
 
