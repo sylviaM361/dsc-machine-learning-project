@@ -1,7 +1,7 @@
 # dsc-machine-learning-project
-H1N1 Vaccine Analysis
-Target variables
-# Predicting H1N1 Vaccine Uptake Using Machine Learning
+# H1N1 Vaccine Analysis
+## Predicting H1N1 Vaccine Uptake Using Machine Learning
+[]!(Images/VaccineH1N1.jpeg)
 
 ## Project Overview
 
@@ -50,6 +50,7 @@ The dataset used in this project comes from a public health survey conducted dur
 The target variable is:
 
 **h1n1_vaccine**
+![](Images/DistributionofH1N1Vaccination.png)
 
 * 1 = Respondent received the H1N1 vaccine
 * 0 = Respondent did not receive the vaccine
