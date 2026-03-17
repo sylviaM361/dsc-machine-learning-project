@@ -1,7 +1,7 @@
 # dsc-machine-learning-project
 # H1N1 Vaccine Analysis
 ## Predicting H1N1 Vaccine Uptake Using Machine Learning
-![](Images/h1n1Image.jpeg)
+![images](https://github.com/user-attachments/assets/e620d1f0-3d9b-46fb-bbea-bc72ae0fea16)
 
 ## Project Overview
 
