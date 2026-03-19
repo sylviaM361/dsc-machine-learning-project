@@ -74,7 +74,7 @@ Other features include demographic information, health conditions, healthcare ac
 The dataset was cleaned and prepared for machine learning by;
 - Handling missing values
 - Removing unnecessary columns
-- Defining targe and feature variables.
+- Defining target and feature variables.
 
 ### 2. Exploratory Data Analysis
 
@@ -110,12 +110,14 @@ Models were evaluated using the following metrics:
 * ROC-AUC
 * Confusion Matrix
 
-Confusion matrix and ROC curves were also used to visually compare model performance.
+ROC curves were also used to visually compare model performance.
+
+The ROC curve below shows the model's ability to distinguish between classes.
 
 ROC CURVE
 ![](Images/ROCCurve.png)
 
-The ROC curve below shows the model's ability to distinguish between classes.
+
 
 ---
 
@@ -152,8 +154,7 @@ Future work could improve the model by:
 
 * Incorporating additional data sources
 * Performing more extensive feature engineering
-* Testing additional machine learning models
-* Conducting deeper hyperparameter tuning
+* Developing a simple web application or API to allow real-time predictions for public health use.
 
 These improvements could lead to even more accurate predictions and stronger insights for public health decision-making.
 
@@ -163,4 +164,3 @@ These improvements could lead to even more accurate predictions and stronger ins
 
 This project demonstrates how machine learning can be used to predict vaccination behavior and support public health decision-making. By identifying factors that influence vaccination uptake, healthcare organizations can develop more targeted strategies to improve vaccination rates and better respond to future public health crises.
 
-The **feature variables** consist of all the other relevant columns that may influence vaccination behavior. These variables include demographic information, health behaviors and opinions about vaccines.
