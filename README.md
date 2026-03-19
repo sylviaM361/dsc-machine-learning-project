@@ -129,6 +129,7 @@ The analysis also highlighted that individuals' perceptions of vaccine safety, e
 ![](Images/TopFactorsInfluencingH1N1Vaccination.png)
 
 ---
+View the dashboard here ![Tableau Dashboard](https://public.tableau.com/views/H1N1Tableau/H1N1tableauDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Recommendations
 
