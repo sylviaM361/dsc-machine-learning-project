@@ -13,9 +13,12 @@ This project uses machine learning classification models to predict whether an i
 
 ## Business Problem
 
-Public health agencies often struggle to determine which populations are less likely to receive vaccinations during disease outbreaks. Without this information, vaccination campaigns may fail to reach the most hesitant or vulnerable populations, and healthcare resources may not be distributed efficiently.
+Public health agencies often struggle to determine which populations are less likely to receive vaccinations during disease outbreaks. Without this information;
+- Vaccination campaigns may fail to reach the most hesitant or vulnerable populations
+- Healthcare resources may not be distributed efficiently.
+- Disease spread may increase
 
-Understanding the factors that influence vaccination decisions can help policymakers and healthcare providers design targeted interventions that increase vaccine uptake and reduce the spread of infectious diseases.
+This project aims to solve that problem by predicting vaccination behavior and identifying key influencing factors.
 
 ---
 
@@ -35,7 +38,7 @@ The main objectives of this project are:
 
 This project aims to answer the following questions:
 
-1. Can we accurately predict whether an individual will receive the H1N1 vaccine using demographic, behavioral, and opinion data?
+1. Can we accurately predict whether an individual will receive the H1N1 vaccine using demographic, behavioral and opinion data?
 2. Which demographic and health-related factors most strongly influence vaccination decisions?
 3. How do perceptions of vaccine safety, effectiveness, and personal risk affect vaccination behavior?
 4. How well do different machine learning models perform in predicting vaccination uptake?
@@ -45,7 +48,7 @@ This project aims to answer the following questions:
 
 ## Dataset
 
-The dataset used in this project comes from a public health survey conducted during the H1N1 pandemic. It contains information about respondents' demographics, health status, behaviors, and opinions about vaccines.
+The dataset used in this project comes from a public health survey conducted during the H1N1 pandemic. It contains information about respondents' demographics, health status, behaviors and opinions about vaccines.
 
 The target variable is:
 
@@ -65,7 +68,10 @@ Other features include demographic information, health conditions, healthcare ac
 
 ### 1. Data Preparation
 
-The dataset was cleaned and prepared for machine learning by handling missing values, removing unnecessary columns, and separating the target variable from the feature variables.
+The dataset was cleaned and prepared for machine learning by;
+- Handling missing values
+- Removing unnecessary columns
+- Defining targe and feature variables.
 
 ### 2. Exploratory Data Analysis
 
@@ -103,20 +109,10 @@ Models were evaluated using the following metrics:
 
 Confusion matrix and ROC curves were also used to visually compare model performance.
 
-Ridge confusion matrix
-![](Images/Ridgeconfusionmatrix.png)
-
-
-Lasso Confusion matrix
-![](Images/Lassoconfusionmatrix.png)
-
-
-Random Forest confusion matrix
-![](Images/Randomforestconfusionmatrix.png)
-
-
 ROC CURVE
 ![](Images/ROCCurve.png)
+
+The ROC curve below shows the model's ability to distinguish between classes.
 
 ---
 
